@@ -21,7 +21,7 @@ Este documento descreve o cronograma de desenvolvimento para o ecossistema farma
 - [ ] **Implementação de WebSocket:**
     - **Detalhe:** Desenvolver e integrar funcionalidades de WebSocket para permitir atualizações em tempo real de informações críticas, como status de pedidos, notificações de chat e mudanças no inventário.
 - [ ] **Gateway Omnichannel:**
-    - **Detalhe:** Construir um gateway unificado para integrar-se com APIs de comunicação populares, incluindo WhatsApp Business API, Meta (FB/Insta) Graph API e TikTok API, permitindo comunicação fluida através de múltiplos canais.
+    - **Detalhe:** Construir um gateway unificado para integrar-se com APIs de comunicação populares, incluindo WhatsApp Business API, Telegram API e Discord API, permitindo comunicação fluida através de múltiplos canais.
 - [ ] **Lógica de Caixa de Entrada Unificada:**
     - **Detalhe:** Implementar uma lógica para agregar mensagens de todas as plataformas omnichannel em uma única thread de conversa por usuário, simplificando o gerenciamento da comunicação.
 

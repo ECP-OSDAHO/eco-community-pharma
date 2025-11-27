@@ -30,7 +30,17 @@ Este documento contém guias passo a passo para utilizar os três aplicativos do
 1.  Depois de mexer na terra, o app vai perguntar: *"Como você se sente agora?"*.
 2.  Escolha a carinha que combina com você: 😄 (Feliz), 😐 (Normal) ou 😔 (Triste).
 3.  Com o tempo, você vai ver como a horta te ajuda a ficar mais feliz!
+### 5. Níveis de Sabedoria (Acesso)
+*Quem ensina e quem aprende na horta.*
 
+#### Sou Mestre da Terra (Autodidata)
+1.  Você planta há anos e conhece os segredos da terra?
+2.  Peça para 3 vizinhos confirmarem que sua horta é boa (Web of Trust).
+3.  Você ganha o selo "Mestre da Terra" e pode vender sementes especiais.
+
+#### Sou Técnico/Agrônomo (Certificado)
+1.  Tire uma foto do seu registro profissional (CREA/CFTA).
+2.  O sistema valida e você pode assinar laudos técnicos para a comunidade.
 ---
 
 ## 🍳 App 2: "O Criador" (Para quem cozinha e organiza)
@@ -54,9 +64,46 @@ Este documento contém guias passo a passo para utilizar os três aplicativos do
 2.  Veja os horários livres (estarão em verde).
 3.  Toque no horário que você quer e confirme. Agora o espaço é seu naquele horário!
 
+### 4. Controle de Estoque e Armazenamento
+1.  Para não perder nada, toque em **"Meus Guardados"**.
+2.  O app organiza suas produções por local: *"Geladeira"*, *"Freezer"* ou *"Armário Seco"*.
+3.  Você sabe exatamente quantos potes tem e a data de validade de cada um.
+
+### 5. Nível de Confiança (Sua Reputação)
+1.  Quem consome seus produtos pode dar notas de *"Sabor"* e *"Higiene"*.
+2.  Essas notas formam seu **Nível de Confiança**.
+3.  Se mantiver tudo limpo e gostoso, você ganha o selo "Mãos de Fada", e todos saberão que sua comida é segura e feita com carinho.
+
+### 4. Níveis de Sabedoria (Acesso)
+*Reconhecendo o dom de cozinhar e criar.*
+
+#### Sou Mestre da Culinária (Autodidata)
+1.  Sua comida é famosa no bairro?
+2.  Receba 5 avaliações positivas de quem provou seus produtos.
+3.  Você ganha o selo "Mãos de Fada" e destaque no marketplace.
+
+#### Sou Nutricionista/Chef (Certificado)
+1.  Envie foto do seu diploma ou registro (CRN).
+2.  Você ganha acesso para criar tabelas nutricionais oficiais para os produtos da comunidade.
 ---
 
 ## 🔬 App 3: "O Pesquisador" (Para quem estuda e ajuda)
+### 4. Níveis de Sabedoria (Acesso)
+*O sistema reconhece tanto o estudo formal quanto a sabedoria da vida.*
+
+#### Sou Autodidata / Guardião de Saberes
+1.  Você aprendeu com a vida, com seus avós ou estudando sozinho?
+2.  Toque em **"Meu Perfil"** e depois em **"Minha Sabedoria"**.
+3.  Escolha **"Guardião de Saberes"**.
+4.  Grave um vídeo contando sua história ou peça para 3 pessoas da comunidade confirmarem que você entende do assunto (Web of Trust).
+5.  Pronto! Você ganha o selo de "Mestre da Prática" e pode ensinar outros.
+
+#### Sou Pesquisador Certificado (Universidade)
+1.  Você tem diploma ou está na faculdade?
+2.  Toque em **"Meu Perfil"** e depois em **"Minha Sabedoria"**.
+3.  Escolha **"Pesquisador Acadêmico"**.
+4.  Tire uma foto do seu diploma ou carteirinha de estudante.
+5.  O sistema valida e você ganha acesso a áreas de dados científicos avançados.
 *Ajudando a ciência com o saber da comunidade.*
 
 ### 1. Identificando Problemas nas Plantas
