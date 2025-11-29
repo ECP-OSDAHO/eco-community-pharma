@@ -1,6 +1,6 @@
 # Especificação Detalhada de Funcionalidades: Ecossistema de Restauração Comunitária
 
-Este documento detalha as funcionalidades (features) necessárias para o sistema "Eco-Community Pharma", focado na criação, gestão e restauração de comunidades locais, com ênfase na integração de populações marginalizadas.
+Este documento detalha as funcionalidades (features) necessárias para o sistema "Eco-Community Pharma", focado na criação, gestão e restauração de comunidades locais, com ênfase na integração de populações em situação de vulnerabilidade social.
 
 ## 1. Núcleo de Identidade e Acesso (Inclusão Radical)
 *O objetivo é remover barreiras de entrada para quem não possui documentos, endereço fixo ou letramento digital.*
