@@ -1,0 +1,149 @@
+scalar Date
+scalar JSON
+
+enum Role {
+    ADMIN
+    GROWER       # App 1
+    MAKER        # App 2
+    RESEARCHER   # App 3
+    VOLUNTEER
+}
+
+enum AccessLevel {
+    NOVICE
+    AUTODIDACT_MASTER  # Guardião de Saberes / Mestre da Terra
+    CERTIFIED_PRO      # Agrônomo / Nutricionista / Acadêmico
+}
+
+type User {
+    id: ID!
+    did: String!                 # Decentralized Identity
+    username: String!
+    role: Role!
+    accessLevel: AccessLevel!
+    reputationScore: [Float]!        # Community contribution score
+    bio: String
+    location: String             # Approximate location for local P2P
+    certifications: [String]     # URLs to proofs of knowledge
+    createdAt: Date!
+}
+
+type Product {
+    id: ID!
+    producer: User!
+    type: ProductType!
+    name: String!
+    description: String
+    quantity: Float!
+    unit: String!
+    price: Float                 # Can be 0 for barter/donation
+    barterAccepts: String        # What they want in exchange
+    traceability: [HistoryEvent] # "Story" of the product
+    images: [String]
+    available: Boolean!
+}
+
+enum ProductType {
+    SEED
+    INPUT
+    PROCESSED_FOOD
+    SERVICE
+}
+
+type HistoryEvent {
+    date: Date!
+    description: String!
+    actor: User!
+}
+
+type Transaction {
+    id: ID!
+    buyer: User!
+    seller: User!
+    items: [Product!]!
+    type: TransactionType!
+    status: TransactionStatus!
+    createdAt: Date!
+}
+
+enum TransactionType {
+    SALE
+    BARTER
+    DONATION
+}
+
+enum TransactionStatus {
+    PENDING
+    COMPLETED
+    CANCELLED
+}
+
+# App 1: Therapeutic & Social
+type GardenLog {
+    id: ID!
+    user: User!
+    plant: String!
+    action: String!      # Watered, Pruned, Harvested
+    mood: String         # Emoji or text for therapeutic tracking
+    notes: String
+    timestamp: Date!
+}
+
+# App 2: Processing & Recipes
+type Recipe {
+    id: ID!
+    author: User!
+    name: String!
+    ingredients: [String!]!
+    steps: [String!]!
+    costPerUnit: Float
+    nutritionalInfo: JSON
+    isAncestral: Boolean! # Flag for traditional recipes
+}
+
+# App 3: Research & Science
+type Experiment {
+    id: ID!
+    researcher: User!
+    title: String!
+    methodology: String!
+    controlGroup: String
+    testGroup: String
+    dataPoints: [DataPoint]
+    status: String!
+}
+
+type DataPoint {
+    timestamp: Date!
+    metric: String!      # pH, EC, Growth
+    value: Float!
+    notes: String
+}
+
+type Query {
+    me: User
+    user(id: ID!): User
+    products(filter: String): [Product]
+    feed: [GardenLog]    # Community feed
+    recipes: [Recipe]
+    experiments: [Experiment]
+}
+
+type Mutation {
+    registerUser(username: String!, did: String!): User
+    createProduct(input: ProductInput!): Product
+    logGardenAction(plant: String!, action: String!, mood: String): GardenLog
+    createRecipe(input: RecipeInput!): Recipe
+    startExperiment(title: String!): Experiment
+}
+
+input ProductInput {
+    name: String!
+    type: ProductType!
+    quantity: Float!
+}
+
+input RecipeInput {
+    name: String!
+    ingredients: [String!]!
+}
