@@ -2,7 +2,6 @@ import { ApolloServer } from "npm:@apollo/server@^4.9.5";
 import { startStandaloneServer } from "npm:@apollo/server@^4.9.5/standalone";
 import { addMocksToSchema } from "npm:@graphql-tools/mock@^9.0.0";
 import { makeExecutableSchema } from "npm:@graphql-tools/schema@^10.0.0";
-import { graphql } from "npm:graphql@^16.8.1";
 
 // Read the schema file
 const typeDefs = await Deno.readTextFile("./graphql.gql");
